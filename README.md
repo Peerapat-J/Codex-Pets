@@ -39,14 +39,3 @@ Mira ผ่านการตรวจรูปแบบ atlas และภา�
 เริ่มจาก [แบบฟอร์มตัวละคร](templates/pet-brief.md) แล้วทำตาม [ขั้นตอนเพิ่ม pet](docs/adding-a-pet.md) แต่ละตัวใช้ ID และโฟลเดอร์ของตัวเอง จึงพัฒนาหลายสไตล์ใน repo เดียวได้
 
 การสร้างภาพใช้ skill `hatch-pet` และเครื่องมือสร้างภาพที่มีใน Codex โดยติดตั้งแยกจาก repo นี้ ไฟล์ pet ที่เสร็จแล้วใช้งานได้โดยไม่ต้องมีเครื่องมือสร้างภาพ
-
-## เชื่อม remote ภายหลัง
-
-สร้าง remote repository เปล่าของคุณ แล้วรันจากโฟลเดอร์นี้ โดยแทน `YOUR_REPOSITORY_URL` ด้วย URL จริง:
-
-```sh
-git remote add origin YOUR_REPOSITORY_URL
-git push -u origin main
-```
-
-Repo นี้เตรียมไว้ในเครื่องบน branch `main` และยังไม่มี remote
