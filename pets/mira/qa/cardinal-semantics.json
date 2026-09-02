@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reviewer": "cardinals worker after deterministic extraction at final pet size; parent approval based on reported visible landmarks",
+  "directions": [
+    {
+      "label": "000",
+      "verdict": "pass",
+      "evidence": "raised nose and high pupils beneath lifted brows"
+    },
+    {
+      "label": "090",
+      "verdict": "pass",
+      "evidence": "nose and pupils screen-right of center; left lens compressed"
+    },
+    {
+      "label": "180",
+      "verdict": "pass",
+      "evidence": "lowered nose/pupils under lowered lids, more top hair visible"
+    },
+    {
+      "label": "270",
+      "verdict": "pass",
+      "evidence": "nose/pupils screen-left of center, right lens compressed"
+    }
+  ],
+  "identity": "face proportions and glasses consistent"
+}

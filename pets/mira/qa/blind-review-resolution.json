@@ -1,0 +1,10 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "vertical-6 A / 315 up-left: strict majority ambiguous on vertical axis"
+  ],
+  "evidence": "Blind cardinal gates all pass. Labeled315 has clear left turn with restrained chin/eye lift within coherent292.5→315→337.5up-left family. No opposite down quadrant, reversal, snap or broken silhouette. Independent final visual confirmation required.",
+  "final_independent_confirmation": "final_visual_qa accepts315as restrained up cue within correct up-left quadrant; no reversal/snap. Cardinal gates all pass."
+}

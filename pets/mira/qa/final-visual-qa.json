@@ -1,0 +1,12 @@
+{
+  "visual_qa": "pass",
+  "reviewer": "independent final_visual_qa / gpt-5.6-terra",
+  "qa_note": "All11rows preserve Mira elf/anime/glasses/binder identity, state motion, stable scale/baseline and whole-body silhouettes",
+  "warnings": [
+    "minor315blindverticalambiguity",
+    "subtle vertical cues292.5/315/337.5",
+    "metric outliers reviewed without visible snap"
+  ],
+  "repair_rows": [],
+  "completed_at": "2026-09-02T09:14:23.584100+00:00"
+}

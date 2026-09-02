@@ -1,0 +1,14 @@
+.DS_Store
+._*
+
+# Temporary generation files and packaged releases
+/work/
+/dist/
+
+# Local tooling and credentials
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

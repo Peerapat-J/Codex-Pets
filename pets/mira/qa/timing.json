@@ -1,0 +1,78 @@
+{
+  "started_at": "2026-09-02T08:11:56Z",
+  "budget_minutes": {
+    "preparation": 2,
+    "base": 3,
+    "standard_rows": 10,
+    "looks": 8,
+    "final_qa_package": 5,
+    "buffer": 2
+  },
+  "repairs": [
+    {
+      "stage": "standard",
+      "row": "running-left",
+      "classification": "source-edge geometry",
+      "evidence": "right frame3 bbox ends1099 vs fixed slot1086",
+      "action": "Generate complete leftward strip with generous padding; retain approved right row"
+    },
+    {
+      "row": "jumping",
+      "classification": "extraction",
+      "evidence": "independent QA found lost vertical position and head-size popping",
+      "action": "stable-slots correction",
+      "result": "independent QA pass, restored crouch-rise-apex-descent-landing"
+    },
+    {
+      "row": "look-row-10",
+      "classification": "visual semantics",
+      "attempts": 2,
+      "at": "2026-09-02T08:44:15.784699+00:00",
+      "evidence": "Candidate1 copies right yaw; candidate2 left cardinal ambiguous/misplaced. Raw heights464–474 and448–451 vs row9~510.",
+      "strategy_change": "Add individual approved180/270 anchors; explicit frontal body and screen-left head choreography; raw scale target510px"
+    },
+    {
+      "row": "look-row-10",
+      "attempt": 3,
+      "classification": "visual semantics",
+      "evidence": "Parent confirmed six central heads point image-right instead of left; cardinals remain correct; raw heights507–512 now match",
+      "strategy_change": "First input now LEFT anchor, second DOWN; concise positive prompt replaces repeated negative constraints and previous-row directional contamination",
+      "at": "2026-09-02T08:52:51.052134+00:00"
+    },
+    {
+      "row": "look-row-10",
+      "classification": "tool input limit",
+      "evidence": "Builtin image tool rejects more than5 referenced paths",
+      "action": "Retain exactly5 mandatory roles, approved cardinals first; remove optional duplicate individual anchors and original already captured in canonical",
+      "at": "2026-09-02T08:55:09.581165+00:00"
+    },
+    {
+      "row": "look-row-9",
+      "classification": "visual semantics and continuity",
+      "evidence": "Parent full-loop sheet:000near-neutral and body becomes right profile at157.5;11px center shift at180. Earlier lightweight row review missed these defects.",
+      "strategy_change": "Explicit sinusoidal head yaw/pitch per pose, frontal body anchored to approved row10; canonical cardinals first; stronger worker review",
+      "at": "2026-09-02T08:58:57.464816+00:00"
+    },
+    {
+      "row": "look-row-9",
+      "classification": "visual semantics and raw-scale drift",
+      "evidence": "New row has correct frontal bodies and up but faces LEFT; source heights557–568 versus accepted row10~490.",
+      "strategy_change": "Edit original rightward strip directly, preserve500–518px source heights; remove opposite-semicycle image to avoid directional bias; keep required canonical/cardinals/layout/contact",
+      "at": "2026-09-02T09:03:27.311959+00:00"
+    }
+  ],
+  "base_complete_at": "2026-09-02T08:14:08Z",
+  "standard_complete_at": "2026-09-02T08:26:52.931511+00:00",
+  "checkpoint_15_minutes": "9 standard rows pass after one mirror geometry repair and deterministic jumping extraction correction. Remaining bounded path: cardinals, two look strips, independent blind and visual QA, packaging.",
+  "checkpoint_25_minutes": {
+    "at": "2026-09-02T08:36:29.740141+00:00",
+    "state": "Row9 registration and per-direction semantics passed; final coherent row10 generation in flight. Remaining path is assembly, semantic/blind/final QA, package. No optional polish queued."
+  },
+  "checkpoint_30_minutes": {
+    "at": "2026-09-02T08:40:28.233090+00:00",
+    "state": "One built-in row10 image generation still in flight. Existing nine standard rows and registered row9 accepted. Continue same bounded job then mandatory final checks; no restart or optional polish."
+  },
+  "completed_at": "2026-09-02T09:15:39.942212+00:00",
+  "elapsed_minutes": 63.7,
+  "final_state": "All deterministic, blind cardinal and independent visual gates passed; installed byte-identical v2 package."
+}

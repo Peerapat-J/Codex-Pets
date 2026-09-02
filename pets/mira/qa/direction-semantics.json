@@ -1,0 +1,221 @@
+{
+  "ok": true,
+  "reviewers": [
+    "look9_repair terra",
+    "look10_left_primary terra"
+  ],
+  "directions": [
+    {
+      "label": "000",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "centered",
+        "vertical": "up"
+      },
+      "observed": {
+        "horizontal": "frontal",
+        "vertical": "clear lifted chin, raised nose, high pupils and lower sclera"
+      },
+      "reason": "Unmistakable UP distinct from neutral"
+    },
+    {
+      "label": "022.5",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-right",
+        "vertical": "up"
+      },
+      "observed": {
+        "horizontal": "slight screen-right",
+        "vertical": "up"
+      },
+      "reason": "Restrained clockwise step; body fixed"
+    },
+    {
+      "label": "045",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-right",
+        "vertical": "up"
+      },
+      "observed": {
+        "horizontal": "moderate screen-right",
+        "vertical": "up"
+      },
+      "reason": "Head/gaze advance with lifted chin"
+    },
+    {
+      "label": "067.5",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-right",
+        "vertical": "up"
+      },
+      "observed": {
+        "horizontal": "strong screen-right",
+        "vertical": "slight up"
+      },
+      "reason": "Natural approach to RIGHT with upward component"
+    },
+    {
+      "label": "090",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-right",
+        "vertical": "level"
+      },
+      "observed": {
+        "horizontal": "nose projects right; back hair on image-left",
+        "vertical": "level"
+      },
+      "reason": "Clear RIGHT with frontal torso, binder and feet"
+    },
+    {
+      "label": "112.5",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-right",
+        "vertical": "down"
+      },
+      "observed": {
+        "horizontal": "strong screen-right",
+        "vertical": "down"
+      },
+      "reason": "Head/gaze down-right; no visible body snap despite diff metric"
+    },
+    {
+      "label": "135",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-right",
+        "vertical": "down"
+      },
+      "observed": {
+        "horizontal": "moderate screen-right",
+        "vertical": "clear down"
+      },
+      "reason": "Smoothly approaches DOWN while preserving right component"
+    },
+    {
+      "label": "157.5",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-right",
+        "vertical": "down"
+      },
+      "observed": {
+        "horizontal": "slight screen-right",
+        "vertical": "clear down"
+      },
+      "reason": "Near frontal before DOWN; area ratio1.006 and center delta3.04px at boundary"
+    },
+    {
+      "label": "180",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "none",
+        "vertical": "down"
+      },
+      "observed": {
+        "horizontal": "frontal",
+        "vertical": "eyes and chin clearly down"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    },
+    {
+      "label": "202.5",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-left",
+        "vertical": "down"
+      },
+      "observed": {
+        "horizontal": "slight image-left",
+        "vertical": "clearly down-left"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    },
+    {
+      "label": "225",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-left",
+        "vertical": "down"
+      },
+      "observed": {
+        "horizontal": "moderate image-left",
+        "vertical": "clearly down-left"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    },
+    {
+      "label": "247.5",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-left",
+        "vertical": "down"
+      },
+      "observed": {
+        "horizontal": "strong image-left",
+        "vertical": "slightly down"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    },
+    {
+      "label": "270",
+      "verdict": "pass",
+      "expected": {
+        "horizontal": "screen-left",
+        "vertical": "none"
+      },
+      "observed": {
+        "horizontal": "unmistakable image-left nose projection",
+        "vertical": "level"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    },
+    {
+      "label": "292.5",
+      "verdict": "warning",
+      "expected": {
+        "horizontal": "screen-left",
+        "vertical": "up"
+      },
+      "observed": {
+        "horizontal": "strong image-left",
+        "vertical": "subtle upward chin/eyes"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    },
+    {
+      "label": "315",
+      "verdict": "warning",
+      "expected": {
+        "horizontal": "screen-left",
+        "vertical": "up"
+      },
+      "observed": {
+        "horizontal": "moderate image-left",
+        "vertical": "near-level, subtle upward cue"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    },
+    {
+      "label": "337.5",
+      "verdict": "warning",
+      "expected": {
+        "horizontal": "screen-left",
+        "vertical": "up"
+      },
+      "observed": {
+        "horizontal": "slight image-left",
+        "vertical": "near-level, subtle upward cue"
+      },
+      "reason": "Independent registered-size review; correct cardinal or principal side, restrained intermediate vertical cues allowed"
+    }
+  ],
+  "continuity": "Current repaired loop has no visible body rotation, identity drift or registration snap; metric outliers reviewed",
+  "pending_final_visual_confirmation": false,
+  "final_independent_reviewer": "final_visual_qa / gpt-5.6-terra",
+  "final_visual_verdict": "pass"
+}

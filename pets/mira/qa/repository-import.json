@@ -1,0 +1,26 @@
+{
+  "imported_at": "2026-09-02",
+  "path_base": "repository_root",
+  "asset_bytes_preserved": true,
+  "report_changes": "Absolute paths normalized for portability; original measurements and verdicts preserved.",
+  "archived_run_prefix": "archived-run/mira/",
+  "archived_intermediates_retained": false,
+  "runtime_selection_tested": false,
+  "assets": [
+    {
+      "path": "pets/mira/pet.json",
+      "bytes": 230,
+      "sha256": "cd3ba63cbd220b3fb961293ee8898cedcbd1a700fa5e5dd33be433d29bf3f92b"
+    },
+    {
+      "path": "pets/mira/spritesheet.webp",
+      "bytes": 1363658,
+      "sha256": "7d6652de888495383ff1a305f1a293f54019b0d823518cce9358017f8c70ecb5"
+    },
+    {
+      "path": "references/mira/reference.png",
+      "bytes": 1185089,
+      "sha256": "3e9a1430bc2f8c37f11be3d893232f9c8163466649f362d97d3457639e1e6fa3"
+    }
+  ]
+}

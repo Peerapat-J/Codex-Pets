@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "pets/mira",
+  "spritesheet": "pets/mira/spritesheet.webp",
+  "validation": "pets/mira/qa/validation-extended.json",
+  "chroma_despill": "pets/mira/qa/chroma-despill-extended.json",
+  "contact_sheet": "pets/mira/qa/contact-sheet-extended.png",
+  "direction_sheet": "pets/mira/qa/look-directions.png",
+  "direction_semantics": "pets/mira/qa/direction-semantics.json",
+  "blind_direction_validation": "pets/mira/qa/direction-blind-validation.json",
+  "blind_review_resolution": "pets/mira/qa/blind-review-resolution.json",
+  "continuity": "pets/mira/qa/look-continuity.json",
+  "review": "pets/mira/qa/review.json",
+  "final_visual_qa": "pets/mira/qa/final-visual-qa.json",
+  "package": "~/.codex/pets/mira",
+  "installed_bytes_verified": true,
+  "runtime_selection_tested": false
+}
