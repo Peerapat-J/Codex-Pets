@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "reviewed_by": "parent",
+  "directions": [
+    {
+      "direction": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "reason": "Both eyes aim upward, the chin lifts, and the head pitches back while the lower body stays anchored."
+    },
+    {
+      "direction": "090",
+      "expected": "screen-right",
+      "verdict": "pass",
+      "reason": "The nose tip, pupils, and face profile point clearly toward the image-right edge."
+    },
+    {
+      "direction": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "reason": "The eyes aim down, the chin tucks, and more crown and fringe are visible."
+    },
+    {
+      "direction": "270",
+      "expected": "screen-left",
+      "verdict": "pass",
+      "reason": "The repaired anchor places the nose tip and visible pupil toward the image-left edge with the left profile leading."
+    }
+  ],
+  "repair": {
+    "direction": "270",
+    "reason": "The first generated anchor faced screen-right and was replaced before look-row synthesis."
+  }
+}

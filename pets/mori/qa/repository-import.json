@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-05",
+  "path_base": "repository_root",
+  "installed_bytes_verified": true,
+  "runtime_selection_tested": false,
+  "assets": [
+    {
+      "path": "pets/mori/pet.json",
+      "bytes": 231,
+      "sha256": "9f6a3208b306878ca50531f788ecdd22087498eb7011e6f6a12f89a9024a0ed9"
+    },
+    {
+      "path": "pets/mori/spritesheet.webp",
+      "bytes": 1651218,
+      "sha256": "5b894e8e1656a1c42f1ab86b4380e95bee179839e63719911f5c4dcea8c851dd"
+    },
+    {
+      "path": "references/mori/reference.png",
+      "bytes": 958585,
+      "sha256": "5f4247445297406f1fa304d6f258b015eec82156ebc65ff6cbcbfdddb03a5187"
+    },
+    {
+      "path": "references/mori/approved-concept.png",
+      "bytes": 1418517,
+      "sha256": "8c44227689161cf02dad5d625d9ca37c337e428018ca17e81cfe5d35bd26664c"
+    }
+  ]
+}

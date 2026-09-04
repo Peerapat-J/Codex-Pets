@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-09-04T17:52:04.471251+00:00",
+  "budget_minutes": {
+    "preparation": 2,
+    "base": 3,
+    "standard_rows": 10,
+    "looks": 8,
+    "final_qa_package": 5,
+    "buffer": 2
+  },
+  "repairs": [
+    {
+      "stage": "standard",
+      "row": "running",
+      "classification": "visual semantics",
+      "evidence": "Independent standard QA found an invented tablet device",
+      "action": "Resynthesized the complete row with empty-hand work gestures and the pouch as the only prop",
+      "result": "pass"
+    },
+    {
+      "stage": "look-cardinals",
+      "direction": "270",
+      "classification": "visual semantics",
+      "evidence": "First 270 anchor faced screen-right",
+      "action": "Generated and normalized one replacement screen-left cardinal anchor",
+      "result": "pass"
+    },
+    {
+      "stage": "look-row-10",
+      "classification": "visual semantics",
+      "evidence": "First row-10 attempt reused screen-right profiles",
+      "action": "Resynthesized the complete coherent row with explicit screen-left nose and hair landmarks",
+      "result": "pass"
+    }
+  ],
+  "elapsed_minutes": 36.7,
+  "completed_at": "2026-09-04T18:28:48Z",
+  "final_state": "All deterministic validation, blind cardinal, labeled direction, continuity review, and independent visual QA gates passed."
+}

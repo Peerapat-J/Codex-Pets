@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "pets/mori",
+  "spritesheet": "pets/mori/spritesheet.webp",
+  "validation": "pets/mori/qa/validation-extended.json",
+  "chroma_despill": "pets/mori/qa/chroma-despill-extended.json",
+  "contact_sheet": "pets/mori/qa/contact-sheet-extended.png",
+  "direction_sheet": "pets/mori/qa/look-directions.png",
+  "direction_semantics": "pets/mori/qa/direction-semantics.json",
+  "blind_direction_validation": "pets/mori/qa/direction-blind-validation.json",
+  "blind_review_resolution": null,
+  "continuity": "pets/mori/qa/look-continuity.json",
+  "review": "pets/mori/qa/review.json",
+  "final_visual_qa": "pets/mori/qa/final-visual-qa.json",
+  "package": "~/.codex/pets/mori",
+  "installed_bytes_verified": true,
+  "runtime_selection_tested": false
+}

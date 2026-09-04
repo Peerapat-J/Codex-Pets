@@ -1,0 +1,12 @@
+{
+  "visual_qa": "pass",
+  "reviewer": "independent final_visual_qa / gpt-5.6-luna",
+  "qa_note": "All 9 standard rows and 16 look directions preserve Mori mature humanoid 3D toy identity, outfit, bag, proportions, clean silhouettes, and stable motion.",
+  "warnings": [
+    "horizontal-7 opposite votes accepted by labeled loop review",
+    "vertical-7 ambiguity accepted by labeled loop review",
+    "157.5 to 180 continuity metric outlier has no visible snap or identity change"
+  ],
+  "repair_rows": [],
+  "completed_at": "2026-09-04T18:28:48Z"
+}
